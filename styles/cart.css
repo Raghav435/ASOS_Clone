@@ -1,0 +1,363 @@
+
+body{
+  font-family: soleil, Helvetica, Arial, sans-serif;;
+}
+
+#heading{
+  margin: auto;
+  width: 70%;
+  text-align: start;
+  font-size: 40px;
+  margin-bottom: -50px;
+  color: violet;
+}
+
+/* coupon-----------------------> */
+
+#HeadBoox{
+margin-top: 50px;
+width: 70%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+/* border: 1px solid black; */
+}
+
+#Leftdiv{
+text-align:start;
+/* border: 1px solid red; */
+}
+
+#Couponbox{
+width: 40%;
+height: 25px;
+background-color: white;
+text-align: center;
+border: 1px solid #ddd;
+}
+
+#couponbtn{
+height: 30px;
+color: white;
+background-color: teal;
+border: 1px solid #ddd;
+}
+
+#LeftItems{
+/* display: grid; */
+/* grid-template-columns: repeat(2,1fr); */
+/* grid-template-rows:auto; */
+width: 100%;
+height: 400px;
+margin-top: 150px;
+/* border: 1px solid blue; */
+box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+#LeftItems h2{
+font-weight: lighter;
+margin-bottom: 7px;
+color:coral;
+margin-left: 10px;
+}
+
+#Savelater{
+border: 1px solid #e1e1e1;
+}
+
+.saveltr{
+
+/* margin-left: 50px; */
+margin: auto;
+margin-left: 10px;
+padding: 5px;
+box-sizing: border-box;
+margin-top: 10px;
+border:1px solid #7c8190;
+background-color:teal;
+color: white;
+
+}
+
+#Saveltrimg{
+height:50px;
+width: 50px;
+padding: 4px;
+}
+
+#Saveltrname{
+padding: 7px;
+}
+
+#Saveltrprice{
+padding: 7px;
+}
+
+#updiv{
+display: flex;
+justify-content:right;
+padding: 5px;
+/* border: 1px solid black; */
+/* margin-left: 60px; */
+}
+
+#SubTotal{
+/* margin-right: 5px; */
+padding-right: 5px;
+/* border: 1px solid black; */
+margin-top: 30px;
+font-weight: bold;
+
+
+}
+
+#Totalinhand{
+margin-right: 5px;
+padding-right: 5px;
+/* border: 1px solid black; */
+margin-top: 30px;
+font-weight: bold;
+
+}
+
+#dowdiv{
+display: flex;
+justify-content: right;
+/* border: 1px solid black; */
+}
+
+#placeShop{
+/* display: flex; */
+justify-content: right;
+gap: 20px;
+/* border: 1px solid black; */
+margin-left: 200px;
+height: 340px;
+width: 55%;
+text-align: center;
+/* box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em; */
+}
+
+#placeShopPara{
+text-align: start;
+color: #7c8190;
+margin-left: 15px;
+}
+
+#promoCode>p{
+color: red;
+}
+
+.rupee₹₹{
+font-size: 20px;
+
+}
+
+.priceshow{
+font-size: 18px;
+padding-right: 5px;
+}
+
+.priceshow2{
+font-size: 18px;
+padding-right: 10px;
+}
+
+/* bottom section ends here --------------> */
+
+.end-btn{
+  margin-top: 50px;
+
+  /* display: flex; */
+  background-color: #0161ff;
+  color: whitesmoke;
+  border: 0px;
+  padding: 10px 15px;
+  font-size: 20px;
+  width: 90%;
+}
+
+#coupon{
+  /* background-color: #ffcc00; */
+  color: whitesmoke;
+  border: 0px;
+  padding: 10px 20px 10px 20px;
+}
+
+#conitem{
+  padding-right: 10px;
+  margin: auto;
+display: flex;
+/* margin: auto; */
+justify-content: space-between;
+/* align-content: center; */
+/* gap: 10px; */
+margin-top: 20px;
+border: 2px solid black;
+max-width: 450px;
+
+}
+
+#Fimg{
+  display: flex;
+  height:80px;
+  width: 20%;
+
+  /* padding: 3px; */
+  margin: auto;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+
+#itemname{
+/* margin: auto; */
+/* padding-left: 20px; */
+
+margin-top: 25px;
+font-weight: 900;
+box-sizing: border-box;
+
+}
+
+#Remove-1{
+  background-color:darkseagreen;
+  border: 0px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+table tr:nth-child(even) {
+  background-color: transparent;
+}
+
+table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(216, 215, 215);
+  color: black;
+}
+
+
+/* CArt----------------------------------------> */
+
+table,
+td,
+th {
+border: 1px solid #ddd;
+text-align: left;
+}
+
+table {
+border-collapse: collapse;
+width: 70%;
+margin: auto;
+margin-top: 50px;
+}
+
+th,
+td {
+padding: 15px;
+}
+
+tr > th {
+background-color: #f1f1f1;
+color: black;
+}
+
+
+/* displayMe---------------------------------------> */
+
+.displayMe{
+border: 1px solid rgb(224, 223, 223);
+height: 20px;
+width: 20px;
+text-align: center;
+
+}
+
+#qtydiv{
+display: flex;
+margin: auto;
+padding: 3px;
+box-sizing: border-box;
+gap: 5px;
+/* display: flex; */
+justify-content: center;
+/* border: 2px solid red; */
+
+
+}#minscount , #pluscount{
+border: transparent;
+background-color: transparent;
+height: 15px;
+margin-top: 0px;
+font-size: 20px;
+}.cartwish{
+background-color: transparent;
+border: 0px;
+margin: auto;
+display: flex;
+  justify-content: center;
+margin-top: 10px;
+}.pink6{
+border: 0.05px solid rgb(224, 223, 223);
+margin: auto;
+margin-top: 5px;
+width: 50%;
+margin-bottom: 10px;
+}
+#gross{
+text-align: center;
+font-size: 20px;
+}
+#net{
+text-align: center;
+font-size: 20px;
+}
+
+/* line */
+.pink99{
+border: 0.05px solid rgb(224, 223, 223);
+margin: auto;
+margin-top: 50px;
+width: 20%;
+margin: auto;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-bottom: -10px;
+margin-top: -30px;
+
+}.pink98{
+border: 0.05px solid rgb(224, 223, 223);
+margin: auto;
+margin-top: 50px;
+width: 30%;
+margin: auto;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-bottom: -10px;
+margin-top: 10px;
+}
+
+/* hover efect   courcerpointer  ------------------------> */
+
+#Fimg , #itemname ,#miscount ,#pluscount ,.cartwish , #Remove-1, .end-btn , #couponbtn, .saveltr{
+cursor: pointer;
+}
+#itemname:hover ,#miscount:hover ,#pluscount:hover ,.cartwish:hover , #Remove-1:hover{
+color: #007aff;
+}
+.boxlater{
+  border-bottom:2px solid orangered ;
+}
+/* .qtynsl{
+  border: 2px solid blue;
+  
+} */

@@ -1,0 +1,171 @@
+body{
+    font-family: soleil, Helvetica, Arial, sans-serif;;
+  }
+
+  .ASOS {
+    line-height: 5px;
+    border: 1px solid;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 62px;
+
+}
+
+.container {
+    line-height: 0px;
+    width: 40%;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+    Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid teal;
+    margin-top: 25px;
+    margin-left: 400px;
+}
+
+h2 {
+    margin: 20px;
+    margin-left: 200px;
+
+}
+
+.div1 {
+    gap: 5px;
+    display: flex;
+    height: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-left: 220px;
+}
+
+.div2 {
+    display: flex;
+    gap: 5px;
+    height: 20px;
+    margin-left: 220px;
+}
+
+.div3 {
+    display: flex;
+    gap: 5px;
+    height: 20px;
+    margin-left: 220px;
+}
+
+.div4 {
+    margin-left: 220px;
+}
+
+.paymentdiv {
+    width: 100%;
+    height: 800px;
+    background-color: #f0f1f2;
+    margin-bottom: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+    Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f0f1f2;
+
+}
+
+.pay1{
+    border: 1px solid gray ;
+    width: 500px;
+    height: 660px;
+    margin: auto;
+    margin-top: 30px;
+   background-color: white;
+}
+
+.word{
+    margin-left: 20px;
+
+}
+
+.card{
+    border: 1px solid;
+    margin-left: 60px;
+    width: 80px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 15px;
+}
+
+.carddetails{
+    border: 1px solid gray;
+    margin: auto;
+    width: 80%;
+    height: 300px;
+    background-color: #f0f1f2;
+}
+
+#cardno{
+    margin: auto;
+    width: 75%;
+    height: 20px;
+    padding: 8px;
+    display: block;
+    margin-top: 35px;
+}
+
+#name{
+    margin: auto;
+    width: 75%;
+    height: 20px;
+    padding: 8px;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#start{
+   width: 43%; 
+   padding: 8px;
+   margin-top: 25px;
+   margin-left: 40px;
+}
+
+#cvv{
+    width: 23%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.payimg{
+    display: block;
+    margin: auto;
+}
+
+.lastdiv{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#input{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+p{
+   color: #32363b; 
+}
+
+p>a{
+    color: #32363b;
+   
+}
+
+.final{
+    margin: auto;
+    width: 350px;
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+}
+
+.final>p>a{
+    text-decoration: none;
+}
+

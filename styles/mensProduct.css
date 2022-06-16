@@ -1,0 +1,79 @@
+
+ body{
+    font-family: soleil, Helvetica, Arial, sans-serif;;
+}
+ #WP1>h2{
+    text-align: center;
+}
+
+.WP1para{
+    text-align: center;
+    width: 70%;
+    padding-left: 250px;
+    font: inherit;
+}
+
+#WP1>h4{
+    text-align: center;
+}
+
+#WP2, #WP2A{
+    display: flex;
+    gap: 15px;
+    padding-left: 170px;
+    padding-top: 30px;
+}
+
+#sort, #newin, #categories, #type, #style, #res, #brand, #colour, #fit, #size, #price{
+    height: 40px;
+    width: 190px;
+
+}
+
+#mensData{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 10px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.dataDiv{
+    padding: 25px;
+}
+
+.mendataImg{
+    height: 370px;
+}
+
+.span{
+    position:absolute;
+    font-weight: lighter;
+    margin-left:-3%;
+    margin-top: 320px;
+    font-size: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    width: 30px;height: 2px;
+    /* border: 1px solid black; */
+}
+.span:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+#Mcsbtn{
+    /* display: none; */
+    position: relative ;
+    margin-right: 10%; 
+    margin-top: -4%; 
+    background-color: rgb(250, 250, 250);
+    margin-left: 32%;
+    color: black;
+    width: 120px;
+    height: 40px;  
+}
+
+

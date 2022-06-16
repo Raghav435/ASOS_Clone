@@ -1,0 +1,273 @@
+
+body{
+    font-family: soleil, Helvetica, Arial, sans-serif;;
+}
+
+#Wpara1{
+    background-image: url("https://content.asos-media.com/-/media/homepages/unisex/homepages/2021/12_dec/sale/xmas-sale-2021/single-gradient/1/desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    height: 600px;
+}
+
+.saleimg{
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 600px;
+    padding: 10px;
+}
+
+#headings{
+    color: #000000;
+    vertical-align: baseline;
+    text-align: center;
+    cursor: pointer;
+}
+#heading1{
+    letter-spacing: 2.8px;
+    font-size: xx-large;
+
+}
+
+#subpr6{
+    
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#subpr6>div{
+    border-radius: 10px;
+    /* display: flex; */
+}
+
+#pr6img1{
+    background-image: url("https://images.asos-media.com/products/asos-design-plunge-neck-fluffy-mini-dress-in-hot-pink/201624497-1-hotpink?$n_640w$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 200px;
+}
+#pr6img2{
+    background-image: url("https://images.asos-media.com/products/threadbare-cut-out-front-crop-top-in-orange/202048146-1-orange?$n_640w$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px; 
+     width: 200px;
+}
+#pr6img3{
+    background-image: url("https://images.asos-media.com/products/asos-design-wide-fit-haven-padded-toe-thong-heeled-sandals-in-green/200732619-4?$n_640w$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px; 
+    width: 200px; 
+}
+#pr6img4{
+    background-image: url("https://images.asos-media.com/products/topshop-paperbag-waist-shorts-in-animal/202466210-1-animal?$n_640w$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px; 
+    width: 200px;
+}
+
+#pr6img5{
+    background-image: url("https://images.asos-media.com/products/asos-design-recycled-frame-chunky-square-sunglasses-with-colour-block-bevel/201734940-1-multi?$n_640w$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px; 
+    width: 200px;
+}
+
+#pr6img6{
+    background-image: url("https://images.asos-media.com/products/nike-pro-training-zip-front-crop-top-in-blue/201526374-1-blue?$n_640w$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px; 
+    width: 200px;
+}
+
+#spr61,#spr62,#spr63,#spr64,#spr65,#spr66{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.753);
+}
+#pr6img1:hover{
+    cursor: pointer;
+}
+#pr6img2:hover{
+    cursor: pointer;
+}
+#pr6img3:hover{
+    cursor: pointer;
+}
+#pr6img4:hover{
+    cursor: pointer;
+}
+#pr6img5:hover{
+    cursor: pointer;
+}
+#pr6img6:hover{
+    cursor: pointer;
+}
+
+#sign1, #sign2{
+    
+    
+    
+    color: gray;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sign1{
+    /* padding-right: 5px; */
+    
+   
+    /* border-right: 2px solid gray; */
+    
+    padding-left: 5px;
+    
+    /* border-left: 2px solid gray; */
+}
+#sign2{
+    padding-right: 5px;
+    
+   
+    /* border-right: 2px solid gray; */
+
+    /* padding-left: 5px; */
+    
+    /* border-left: 2px solid gray; */
+}
+#sign1:hover{
+    border-left: 2px solid orangered;
+    color: orange;
+    /* border-right: 2px solid orange; */
+}
+#sign2:hover{
+    
+    border-right: 2px solid orangered;
+    color: orange;
+    /* border-left: 2px solid orange; */
+}
+
+
+#sub2pr7{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+}
+#sub2pr7>div{
+    text-align: center;
+}
+#sub2pr7 img{
+    width: 100%;
+}
+   
+
+#Wpara2{
+    background-image: url("https://content.asos-media.com/-/media/homepages/ww/2022/june/06/hero/hero_1258x600.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-top: 50px;
+    height: 600px;
+    width: 90%;
+    margin-left: 100px;
+}
+
+#Wpara2>h1{
+    height: 80px;
+    font-size: 65px;
+    background-color: #f0f1f2;
+}
+
+#Wpara2>h3{
+    background-color: #f0f1f2;
+    font-size: 20px;
+}
+
+
+#Wpara3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+
+#Wpara3>div>img{
+    height: 400px;
+}
+
+#Wpara3>div>h3, #Wpara3>div>p, #Wpara5>div>h2, #Wpara5>div>p{
+    text-align: center;
+}
+
+#Wpara4>img{
+    text-align: center;
+    padding: 30px;
+    margin-left: 55px;
+}
+
+#Wpara5{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#Wpara5>div>img{
+    height: 650px;
+}
+
+#Wpara5>div>button{
+    display: block;
+    color: black;
+    background: #FFFFFF;
+    font-size: x-large;
+    height: 70px;
+    margin-left: 140px;
+}
+#Wpara5>div>button>a{
+    color: #000000;
+}
+
+
+#Wpara5>div>button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+#Wpara5>div>button>a:hover{
+    color: #f0f1f2;
+}
+
+
+.heading2{
+    text-align: center;
+    padding: 20px;
+}
+
+#Wpara6{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 60px;
+    /* border: 1px solid black; */
+    /* width: 80%; */
+}
+
+#Wpara6>div>a>img{
+    /* border: 1px solid black; */
+    width: 65%;
+    height: 250px;
+    text-align: center;
+}
+
+
+
+

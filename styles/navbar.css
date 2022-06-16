@@ -1,0 +1,515 @@
+body{
+    font-family: soleil, Helvetica, Arial, sans-serif;;
+}
+
+#body{
+    line-height: 15px;
+    font-family: 'Merriweather', serif;
+}
+#body a{
+    text-decoration: none;
+    color: black;
+    
+}
+/* #body a:hover{
+    text-decoration: underline;
+}  */
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.2px solid grey;
+    padding-right: 20px;
+    background-color: 
+#2d2d2d;
+}
+
+#navbar2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin-left: 80px;
+    margin-right: 100px;
+    background-color: #525050;
+    width: 80%;
+}
+
+#navbar2>p{
+    color: white;
+}
+
+#navbar2Full{
+    background-color: #525050;
+
+}
+
+#navbar3{
+    display: flex;
+    justify-content: space-around;
+    height: 65px;
+    /* border: 1px solid black; */
+    background-color: #ff385c;
+}
+
+#navbar3>button{
+    display: block;
+    font-weight: bolder;
+    font-size: larger;
+    size: 30px;
+    background-color: #ff385c;
+    color: black;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+    color: black;
+}
+
+#navbar3>button>a{
+    color: black;
+}
+
+.fa-solid{
+    /* padding-bottom: 7px; */
+    font-size: x-large;
+}
+
+.fa-regular{
+    padding-top: 7px;
+    font-size:x-large;
+}
+
+.heart{
+    font-size:xx-large;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+#navbarsearch{
+    width: 850px;
+    border-radius: 50px;
+}
+/* input{
+    border-radius: 19px;
+} */
+
+#navmen>a{
+    color: white;
+}
+
+
+#navwomen>a{
+    color: white;
+}
+
+#navacc{
+    color: white;
+}
+
+
+#navbar div{
+    display: flex;
+    
+    align-items: center;
+    
+
+}
+#navsign a:hover{
+    text-decoration: none;
+}
+#nav1 img{
+    height: 80px;
+}
+#nav2 img{
+    height: 30px;
+}
+#nav2 input{
+    height: 30px;
+    border: none;
+    outline: none;
+}
+#nav1{
+    gap: 30px;
+    align-items: baseline;
+}
+#navsearch{
+    /* border: 1px solid black; */
+    /* width: 45%; */
+    /* margin-left: 45px; */
+}
+#navsearch>img{
+    background-color: red;
+}
+#nav2{
+    gap: 30px;
+    
+}
+#navsign{
+    gap: 30px;
+    /* padding: 0px 15px; */
+}
+#navsign>i{
+    /* color: white; */
+    /* border: 1px solid black; */
+    font-size: larger;
+    padding-bottom: 10px;
+}
+.red{
+    color: red;
+    
+}
+#navbar>p{
+    font-size:14px;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+#navbar2>p:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+
+}
+.red:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+#sale4>div , #newIn2>div , #dress3>div, #dress4>div, #shoes2>div, #sportswear3>div, #accessories2>div, #summer3>div, #trendingnow2>div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+    border-radius: 30px;
+   
+}
+
+#newIn1>p>a, #clothing1>p>a, #dress1>p>a, #topshow1>p>a{
+    color: black;
+}
+
+
+
+
+#dress3>div>img, #sale4>div>img, #newIn2>div>img, #trendingnow2>div>img{
+    height: 90px;
+}
+
+#dress4>div>img, #shoes2>div>img, #sportswear3>div>img, #accessories2>div>img{
+    height: 60px;
+}
+
+#summer3>div>img{
+    height: 60px;
+}
+
+#shoes3>div{
+    display: flex;
+    gap: 15px;
+}
+
+#shoes3>div>img{
+    height: 400px;
+    margin-top: 20px;
+}
+
+#sportwear4{
+    /* background-image: url("https://images.asos-media.com/navigation/ww_stansmiths_gbl_4WL_1934660?&$n_320w$");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* #newIn2>div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+
+} */
+
+#newIn3{
+    display: flex;
+    gap: 10px;
+    height: 320px;
+    margin-top: 20px;
+}
+
+#clothing3>img{
+    height: 100px;
+}
+
+#clothing4>div, #trendingnow3>div, #topshow3>div, #facebody3>div, #brand3>div, #outlet3>div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+#clothing4>div>img, #outlet3>div>img{
+    margin-top: 20px;
+    height: 100px;
+}
+
+#accessories3{
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+#summer4>div{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+#outlet2{
+    margin-top: 45px;
+}
+
+#outlet4>div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#sale{
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+    
+}
+#newIn{
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+}
+#clothing{
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+}
+#dress{
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+}
+#shoes{
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+#Sportswear{
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+#accessories{
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+#summer{
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+#trendingnow{
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+#topshow{
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+#facebody{
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+#brands{
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+#outlet{
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+#cashmere1{
+    margin-left: 500px;
+    background-color: white;
+    padding: 0px 20px;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+#women4{
+    width: 400px;
+}
+#women4>div{
+    display: flex;
+}
+#subwomen1{
+    gap: 13px;
+}
+#subwomen2{
+    gap: 4px;
+}
+#subwomen1 img{
+    height: 255px;
+}
+#subwomen2 img{
+    height: 173px;
+}
+#women4 p{
+    margin-top: 0px;
+    font-weight: bold;
+}
+#new4 p,#new5 p{
+    margin-top: 0px;
+    font-weight: bold;
+}
+#home3{
+    display: flex;
+    gap: 20px;
+}
+#home3 img{
+    height: 250px;
+}
+#home p{
+    margin-top: 0px;
+}
+#stories4{
+    display: flex;
+    gap: 20px;
+}
+#stories4 img{
+    height: 250px;
+}
+#stories4 p{
+    margin-top: 0px;
+}
+#stories1{
+    padding-top: 15px;
+}
+#navlen{
+    /* background-color: rgb(1,97,255); */
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px;
+}
+.navgray{
+    color: gray;
+}
+#nav1>img{
+    cursor: pointer;
+    background-color: 
+    #2d2d2d;
+}
+#acc{
+    display: none;
+    justify-content: end;
+   
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+   
+}
+#acc1{
+    margin-right: 100px;
+    background-color: white;
+    padding: 10px 40px;
+    font-size: 15px;
+    z-index: 1000;
+}
+#dlt:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

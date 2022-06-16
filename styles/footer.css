@@ -1,0 +1,74 @@
+body{
+    font-family: soleil, Helvetica, Arial, sans-serif;;
+}
+
+#footermain{
+    background-color: #f0f1f2;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 17px;
+    font-size: 15px;
+
+}
+
+.help {
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+.help>p {
+    color: black;
+    text-decoration: none;
+}
+
+
+.links{
+    margin-top: 25px;
+}
+
+.links>p>a,.help>p>a,.about>p>a{
+    text-decoration: none;
+   color: black;
+   font-family: 'Inter', sans-serif;
+}
+
+
+.icon {
+    background-color: #f0f1f2;
+    text-align: center;
+
+}
+
+.about{
+    margin-top: 25px;
+}
+
+.like {
+    margin-top: 25px;
+}
+
+.like>p>a>img{
+    height: 30px;
+}
+
+.like>p>b>a{
+    color: black;
+}
+
+.fa {
+    margin-top: 35px;
+    margin-left: 45px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.mastercard, .paypal, .americanexpress{
+    padding-left: 3px;
+    height: 20px;
+    margin-left: 45px;
+
+}
